@@ -1,0 +1,151 @@
+.login-signup {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ls-icon {
+  height: 39px !important;
+  width: 100% !important;
+}
+
+.ls-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.ls-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+
+  .ls-input {
+    padding: 0 15px !important;
+    margin: 0 0 15px !important;
+
+    label {
+      left: 12px;
+      font-size: 18px;
+    }
+  }
+
+  button {
+    width: 100%;
+    margin: 10px;
+    padding: 0 30px;
+    min-height: 49px;
+  }
+}
+
+.ls-links {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+
+  a {
+    font-size: 15px !important;
+    text-decoration: none !important;
+
+    &:hover {
+      text-decoration: underline !important;
+    }
+  }
+
+  span {
+    padding: 0 5px;
+    color: $footer-color-light;
+  }
+}
+
+.divider {
+  width: 95%;
+  color: $footer-color-light;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.42);
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 0;
+  text-align: center;
+  overflow: visible;
+
+  &::after {
+    content: 'Or';
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    padding: 0 16px;
+    background: #ffffff;
+  }
+}
+
+.third-party {
+  width: 80%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  a {
+    height: 40px;
+
+    svg {
+      height: 18px !important;
+    }
+
+    span {
+      margin: 0 5px;
+    }
+  }
+}
+
+.btn-google {
+  background-color: #2b7de9 !important;
+  border: 1px solid #2b7de9 !important;
+  color: #ffffff !important;
+  border-radius: 9999px !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s background-color;
+
+  &:hover {
+    background-color: #1a73e8 !important;
+    text-decoration: none !important;
+  }
+}
+
+.btn-github {
+  background-color: #ffffff !important;
+  border: 1px solid #24292e !important;
+  color: #24292e !important;
+  border-radius: 9999px !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s background-color;
+
+  &:hover {
+    background-color: rgba(36, 41, 46, 0.08) !important;
+    text-decoration: none !important;
+  }
+}
+
+.google-icon {
+  height: 15px !important;
+  width: auto !important;
+}

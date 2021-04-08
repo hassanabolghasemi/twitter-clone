@@ -1,0 +1,174 @@
+.landing-page {
+  position: absolute;
+  top: 0;
+  bottom: 78px;
+}
+
+.landing-container {
+  display: flex;
+  flex-direction: row-reverse;
+  color: #ffffff;
+  width: 100%;
+  min-height: 100%;
+}
+
+// Features Section
+.landing-features {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  flex-direction: column;
+  background-color: $primary-background;
+  overflow: hidden;
+  padding: 15px;
+}
+
+.features-icon {
+  color: $primary-color;
+  height: 160vh !important;
+  width: auto !important;
+  position: absolute;
+  top: -30vh;
+  right: -50vh;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  font-size: 19px;
+  font-weight: bold;
+  max-width: 380px;
+  padding: 15px 0;
+
+  div {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-left: 15px;
+    }
+  }
+
+  div:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Join Section
+.landing-join {
+  display: flex !important;
+  position: relative !important;
+  flex-direction: column !important;
+  flex: 1 !important;
+  justify-content: center !important;
+  align-items: center !important;
+  color: $text-color !important;
+  padding: 15px !important;
+}
+
+// Login Form
+.landing-login-form {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+// Join us
+.join-area {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-weight: bold;
+  max-width: 380px;
+
+  a {
+    margin-bottom: 15px;
+    height: 39px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.join-icon {
+  height: 2.75rem !important;
+  width: 2.75rem !important;
+  color: $primary-color !important;
+}
+
+.join-description {
+  margin-top: 20px !important;
+  font-size: 30px !important;
+}
+
+.join-join {
+  margin-top: 40px !important;
+  margin-bottom: 15px !important;
+}
+
+.landing-divider {
+  align-self: center !important;
+  margin-top: 10px !important;
+  margin-bottom: 0px !important;
+  width: 50% !important;
+}
+
+// Mobile Sign up - Login
+.landing-ls-mobile {
+  display: none;
+  padding: 39px 15px 30px;
+  justify-content: center;
+
+  a {
+    width: 100%;
+    min-width: 62.79px;
+    min-height: 39px;
+    max-width: 180px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a:first-child {
+    margin-right: 20px;
+  }
+}
+
+// Footer
+.landing-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 10px 15px;
+
+  a {
+    color: $footer-color-light;
+    margin: 5px 0;
+    padding-right: 15px;
+    line-height: 19.6875px;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .copyright {
+    color: $footer-color-light;
+    line-height: 19.6875px;
+    margin: 5px 0;
+  }
+}

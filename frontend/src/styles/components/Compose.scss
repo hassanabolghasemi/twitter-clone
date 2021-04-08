@@ -1,0 +1,149 @@
+.cm-header {
+  border-bottom: 1px solid #c4cfd6;
+  height: 53px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  button {
+    min-height: 39px;
+    width: 76.86px;
+  }
+}
+
+.cmh-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: 0.2s background-color;
+
+  &:hover {
+    background-color: $primary-link-hover;
+  }
+
+  svg {
+    color: $primary-color !important;
+  }
+}
+
+.cm-compose {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.home-tweet-compose {
+  padding: 5px 15px 10px;
+  display: flex;
+}
+
+.tc-user {
+  padding-top: 5px;
+  margin-right: 10px;
+  flex-grow: 0;
+}
+
+.tcu-link {
+  display: flex;
+}
+
+.tc-compose {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.tc-text {
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+
+  &:focus-within {
+    border-bottom: 1px solid $search-box;
+  }
+}
+
+.cm-textarea {
+  height: 120px !important;
+}
+
+.tc-textarea {
+  font-size: 19px !important;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue,
+    sans-serif !important;
+  font-weight: 500;
+  padding: 10px 0;
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  resize: none;
+  outline: none;
+}
+
+.tc-utils {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+
+  button {
+    min-height: 39px;
+    width: 76.86px;
+  }
+}
+
+.tcu-options {
+  display: flex;
+}
+
+.tcuo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 37px;
+  height: 37px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: 0.2s background-color;
+
+  &:hover {
+    background-color: $primary-link-hover;
+  }
+
+  svg {
+    color: $primary-color !important;
+    font-size: 25px !important;
+  }
+}
+
+.tc-tweet {
+  display: flex;
+  align-items: center;
+
+  button {
+    margin-left: 5px !important;
+  }
+}
+
+.tctp {
+  margin-right: 5px !important;
+  transition: 0.15s width, 0.15s height, 0.15s margin-right !important;
+}
+
+.tctp-b {
+  color: $primary-color !important;
+}
+
+.tctp-o {
+  margin-right: 0px !important;
+  color: #ffa500 !important;
+}
+
+.tctp-r {
+  margin-right: 0px !important;
+  color: #e0245e !important;
+}

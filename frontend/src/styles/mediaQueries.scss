@@ -1,0 +1,176 @@
+@media screen and (max-width: 1264px) {
+  // Header
+  .header-side {
+    width: 88px;
+  }
+
+  .header-navbar,
+  .header-nav {
+    align-items: center !important;
+  }
+
+  .nav-link,
+  .header-tweet {
+    justify-content: center !important;
+  }
+
+  .header-tweet {
+    display: flex;
+  }
+
+  .tweet-btn {
+    min-width: 49px !important;
+    width: 49px !important;
+  }
+
+  .nav-span,
+  .tweet-span,
+  .ufn,
+  .user-more {
+    display: none !important;
+  }
+
+  .tweet-icon {
+    display: inline-block !important;
+  }
+
+  .header-user {
+    width: 59px;
+  }
+}
+
+@media screen and (max-width: 1077px) {
+  // Sidebar
+  .sidebar-col {
+    width: 290px;
+  }
+
+  .sidebar {
+    width: 290px;
+  }
+
+  // Base
+  .main-content {
+    max-width: 920px !important;
+  }
+}
+
+@media screen and (max-width: 1007px) {
+  // Header
+  .header-side {
+    width: 68px !important;
+  }
+
+  .header {
+    padding: 0 5px !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  // Root
+  .landing-login-form {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 987px) {
+  // Sidebar
+  .sidebar-col {
+    display: none;
+  }
+
+  // Base
+  .main-content {
+    max-width: 600px !important;
+  }
+
+  // Header
+  .header-side {
+    width: 88px !important;
+  }
+
+  .header {
+    padding: 0 10px !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  // Root
+  .landing-container {
+    flex-direction: column;
+  }
+
+  .features-icon {
+    height: 60vh !important;
+    top: -10vh;
+    right: -10vh;
+  }
+
+  .landing-ls-mobile {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 687px) {
+  // Primary Column
+  .primary-col {
+    width: 100% !important;
+  }
+
+  // Base
+  .main-content {
+    max-width: calc(100vw - 88px) !important;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  // Header
+  .header-side {
+    width: 68px !important;
+  }
+
+  .header {
+    padding: 0 5px !important;
+  }
+
+  // Base
+  .main-content {
+    max-width: calc(100vw - 68px) !important;
+  }
+
+  // Profile
+  .uinfoh-avatar {
+    margin-left: -2px !important;
+    margin-bottom: -2px !important;
+    border-width: 2px !important;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  // Header
+
+  .header-side {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 660px) {
+  // Root
+  .landing-login-form {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 630px) {
+  // Header
+  .nav-disabled {
+    display: none !important;
+  }
+}
+
+@media screen and (max-height: 470px) {
+  //Header
+  .header-user {
+    position: static !important;
+  }
+}

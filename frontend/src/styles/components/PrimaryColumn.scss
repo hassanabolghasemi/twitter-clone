@@ -1,0 +1,146 @@
+.primary-col {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid $search-box;
+  border-right: 1px solid $search-box;
+  max-width: 600px !important;
+  width: 100%;
+  padding-bottom: 600px;
+}
+
+.primary-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.primary-header {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid $search-box;
+  background-color: #ffffff;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+
+.p-header {
+  max-width: 1000px;
+  width: 100%;
+  height: 53px;
+  display: flex;
+  align-items: center;
+}
+
+.ph-title {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.pht-div {
+  display: flex;
+  width: 100%;
+
+  h2 {
+    font-size: 19px;
+    font-weight: 900;
+  }
+}
+
+.phtd-title {
+  display: flex;
+  flex-direction: column;
+
+  p {
+    font-size: 13px !important;
+    color: $footer-color-light;
+  }
+}
+
+.ph-cntpref {
+  min-height: 30px;
+  min-width: 30px;
+  margin-left: 20px;
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+
+.ph-cp-div {
+  min-width: 39px;
+  min-height: 39px;
+  margin-right: -8px;
+  transition: 0.2s background-color;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+  svg {
+    height: 1.5rem !important;
+    width: auto !important;
+    color: $primary-color !important;
+  }
+
+  &:hover {
+    background-color: $primary-link-hover;
+    cursor: pointer;
+  }
+}
+
+.primary-content {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.no-tweet {
+  padding: 39px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nt-title {
+  font-size: 19px;
+  font-weight: 900;
+  margin-bottom: 10px;
+
+  span {
+    overflow-wrap: break-word;
+  }
+}
+
+.nt-description {
+  color: $footer-color-light;
+  text-align: center;
+  font-weight: 500;
+  white-space: pre-line;
+
+  span {
+    overflow-wrap: break-word;
+  }
+}
+
+.nt-connect {
+  margin-top: 20px !important;
+  min-width: 62.79px !important;
+  min-height: 39px !important;
+  width: 96px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    text-decoration: none !important;
+  }
+}
